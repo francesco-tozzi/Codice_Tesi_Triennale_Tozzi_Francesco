@@ -1,0 +1,18 @@
+{
+    "distiluse-base-multilingual-cased-v1": {
+        "Spearman Correlation": 0.23834718747401787,
+        "P-value": 1.1524738429877977e-28
+    },
+    "paraphrase-multilingual-MiniLM-L12-v2": {
+        "Spearman Correlation": 0.2839652863449563,
+        "P-value": 1.8337198958304496e-40
+    },
+    "paraphrase-multilingual-mpnet-base-v2": {
+        "Spearman Correlation": 0.3499893197985557,
+        "P-value": 6.6658006606621835e-62
+    },
+    "WINNER": {
+        "Model": "paraphrase-multilingual-mpnet-base-v2",
+        "Score": 0.3499893197985557
+    }
+}
