@@ -4,7 +4,7 @@ NOTE SUL CODICE:
 
 - Ogni fase del codice è pensata come sotto-analisi dell'analisi principale: durante ogni fase vengono usati i file presenti nella cartella "dataset" come file di input o di elaborazione intermedia e i file prodotti come output finale vengono salvati nella cartella "results". 
 
-- La cartella "3_matrix_similarity/results/similarity_parts" è vuota per questioni pragmatiche: occupa 15,6 GB , rendendo pesante il caricamento. Inoltre, a conferma della scarsa utilità del caricamento di questi 15,6 GB di file c'è il fatto che l'esecuzione dello script "3a_matrix_similarity.py" richiede pochi minuti. Per cui, PRIMA DI FAR GIRARE GLI SCRIPT DELLO STEP 4, FAI GIRARE IL CODICE DEL FILE "3a_matrix_similarity.py"
+- Le cartelle "results" degli step 2, 3, 4 e 5 sono state caricate vuote per via dei limiti di GitHub. BISOGNA FAR GIRARE IL CODICE PER GENERARE I RISULTATI DEGLI STEP DA 2 A 5.
 
 - Il codice è stato reso efficiente ed eseguibile su PC con appena 8GB di RAM
 
